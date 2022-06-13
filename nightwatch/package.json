@@ -1,0 +1,9 @@
+{
+    "name": "stairs2-e2e",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "geckodriver": "^3.0.1",
+        "nightwatch": "^2.0.10"
+    }
+}

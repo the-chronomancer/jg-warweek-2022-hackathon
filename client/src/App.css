@@ -1,0 +1,52 @@
+
+.overlay {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	background-color: rgba(0,0,0,0);
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	text-align: center;
+	display: flex;
+	flex-direction: column-reverse;
+
+	pointer-events: none;
+}
+
+.menu {
+	background-color: white;
+	border: 4px solid black;
+	padding: 0.5em 5em;
+	margin: 1em 5em;
+
+	font-size: 24px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+
+	display: flex;
+	justify-content: space-around;
+	pointer-events: all;
+}
+
+.menuitem {
+	margin: 0em 1em;
+	cursor: pointer
+}
+
+.header {
+	border: 4px solid black;
+	padding: 0.5em 5em;
+	margin: 1em 5em;
+	font-size: 24px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

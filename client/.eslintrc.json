@@ -1,0 +1,34 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": [
+		"react-app"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2019
+	},
+	"rules": {
+        "func-names": 0,
+		"indent": ["warn", "tab", { "ignoredNodes": ["TemplateLiteral"] }],
+		"template-curly-spacing" : "off",
+        "no-console": 0,
+        "no-tabs": 0,
+		"semi": [2, "never"],
+		"eol-last": ["error", "always"],
+		"react/react-in-jsx-scope": "off",
+		// allow jsx syntax in js files (for next.js project)
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }] //should add ".ts" if typescript projec
+    },
+	"overrides": [
+		{
+			"files": [
+				"**/*.test.js"
+			],
+			"env": {
+				"jest": true
+			}
+		}
+	]
+}

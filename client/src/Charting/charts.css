@@ -1,0 +1,28 @@
+
+.horizontal-progress {
+	border: 4px solid black;
+	height: 1.5em;
+	width: 12em;
+}
+
+.progress-done{
+	background-color: #107fbf;
+	height: 100%;
+}
+
+.progress-done{
+	height: 100%;
+}
+
+.numbers {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: auto 5em;
+}
+
+.numbers-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

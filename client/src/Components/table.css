@@ -1,0 +1,19 @@
+
+.rank-table {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	min-width: 17em;
+	height: 21em;
+	padding: 0.5em;
+	border: 4px solid black;
+}
+
+.rank-table-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.6em;
+	width: 100%;
+	font-size: 24px;
+}
+

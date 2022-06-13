@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="login.loginAsUser"
+    errors="1" failures="0" hostname="" id="" package="login" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                    │
+│    Error: GeckoDriver cannot be found in the current project.                                      │
+│                                                                                                    │
+│    You can either install geckodriver from NPM with:                                               │
+│                                                                                                    │
+│       npm install geckodriver --save-dev                                                           │
+│                                                                                                    │
+│    or download it from https://github.com/mozilla/geckodriver/releases,                            │
+│   extract the archive and set &#34;webdriver.server_path&#34; config option to point to the binary file.   │
+│                                                                                                    │
+│                                                                                                    │
+│                                                                                                    │
+└────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+    </system-err>
+  
+
+    
+    <error message="GeckoDriver cannot be found in the current project."><![CDATA[
+      Error: GeckoDriver cannot be found in the current project.
+    at FirefoxServiceBuilder.getStartupErrorMessage (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/base-service.js:197:26)
+    at new BaseService (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/base-service.js:81:18)
+    at new FirefoxServiceBuilder (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/transport/selenium-webdriver/service-builders/firefox.js:4:1)
+    at GeckoDriver.createDriverService (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/transport/selenium-webdriver/index.js:171:28)
+    at GeckoDriver.createSession (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/transport/selenium-webdriver/index.js:223:18)
+    at NightwatchClient.createSession (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/core/client.js:640:27)
+    at TestSuite.createSession (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/testsuite/index.js:416:24)
+    at TestSuite.startTestSuite (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/testsuite/index.js:430:17)
+    at TestSuite.runTestSuite (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/testsuite/index.js:455:17)
+    at TestSuite.run (/home/kholmes/Documents/jahnel/code_wars/ww-2022/jg-code-wars-ww-2022/nightwatch/node_modules/nightwatch/lib/testsuite/index.js:907:17)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Login/logout as test Admin User" classname="login.loginAsUser">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
