@@ -1,6 +1,6 @@
 # JG Wellness 2.0 AKA EffingLegs
 
-![sweep the leg](https://github.com/the-chronomancer/jg-warweek-2022-hackathon/blob/master/cobra_kai.jpeg)
+![sweep the leg](https://github.com/the-chronomancer/jg-warweek-2022-hackathon/blob/main/cobra_kai.jpeg)
 
 ## Why do I need this?
 
