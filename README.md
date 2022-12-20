@@ -2,6 +2,10 @@
 
 ![sweep the leg](https://github.com/the-chronomancer/jg-warweek-2022-hackathon/blob/main/cobra_kai.jpeg)
 
+CI/CD & Docs: __Kevin Holmes__
+Facial Recognition: __Jacob Coleman__
+Modern Art UI: __Sean Gibbons__
+
 ## Why do I need this?
 
 It's Tuesday and you're walking into the best office on the planet:
